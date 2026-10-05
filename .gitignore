@@ -1,0 +1,12 @@
+sihaimodel-main
+research/
+.venv
+__pycache__/
+*.pyc
+*.egg-info/
+simengine/validation/data/
+node_modules/
+dist/
+.pytest_cache/
+Virtualengine-main
+graphify-out/
