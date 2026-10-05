@@ -1,6 +1,6 @@
 import { Suspense, useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import { TooltipProvider } from '@/components/ui/tooltip';
+import { TooltipProvider } from '@/Components/ui/tooltip';
 import Sidebar from './Sidebar';
 import TopBar from './TopBar';
 import MissionMiniPlayer from '../mission/MissionMiniPlayer';

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Pause, Plane, Plus, Trash2 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/Components/ui/button';
 import { fetchFlightSimulationStatus, startFlightSimulation, stopFlightSimulation } from '../../lib/api';
 import type { FaultMode, FlightPhaseSpec, FlightSimulationStatus, SeverityShape } from '../../types/contracts';
 import { useEngineStore } from '../../store/useEngineStore';

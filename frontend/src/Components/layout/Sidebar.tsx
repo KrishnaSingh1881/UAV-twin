@@ -15,7 +15,7 @@ import {
   UserIcon,
 } from '@hugeicons/core-free-icons';
 import type { IconSvgElement } from '@hugeicons/react';
-import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/Components/ui/tooltip';
 import { useEngineStore } from '../../store/useEngineStore';
 import { useMissionStore } from '../../store/useMissionStore';
 import { useThemeStore } from '../../store/useThemeStore';

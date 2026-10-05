@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Compass, MapPin, Navigation, Search } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/Components/ui/button';
 import { haversineDistanceKm, initialBearingDeg } from '../../lib/geo';
 import { searchPlace, type GeocodeResult } from '../../lib/geocoding';
 import { ASSUMED_CRUISE_SPEED_KMH, PRESET_ROUTES, type MissionRoute } from '../../types/mission';
